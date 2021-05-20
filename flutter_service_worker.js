@@ -4,9 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "c68cf2ce3bd59d406d031eb3c92d8015",
-"index.html": "e88bdeaec3ea5135c8bd99784bfdbf5b",
-"/": "e88bdeaec3ea5135c8bd99784bfdbf5b",
-"main.dart.js": "d9a05d93111f29547fc8219c539cc0b2",
+"index.html": "5514fcbe4c5667a232099ef9500b87cb",
+"/": "5514fcbe4c5667a232099ef9500b87cb",
+"main.dart.js": "71bff1f81acc1600eaa61e8cd5d7bfb4",
 "favicon.png": "98a8a987604f462755643b8412c7e92e",
 "icons/Icon-192.png": "af9033555c6feb8da9491d65ab5bf48f",
 "icons/Icon-128.png": "204204d5ae02c85b295d363f3bbe4294",
@@ -28,10 +28,7 @@ const RESOURCES = {
 "assets/packages/flutter_signin_button/assets/logos/3.0x/google_light.png": "fe46d37e7d6a16ecd15d5908a795b4ee",
 "assets/packages/flutter_signin_button/assets/logos/3.0x/facebook_new.png": "12531aa3541312b7e5ddd41223fc60cb",
 "assets/packages/flutter_signin_button/assets/logos/facebook_new.png": "e1dff5c319a9d7898aee817f624336e3",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/assets/images/appbar_background.jpg": "86cb97943a4843ab59e86e595c9604da",
-"assets/assets/images/placeholder.jpg": "5f3ff4ccacb0901287dd74bd337dfe3e",
-"assets/assets/images/btn_google_light_normal_ios.svg": "1cdc8fce9609d07f0e9d8d0bc4b61f8f"
+"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac"
 };
 
 // The application shell files that are downloaded before a service worker can

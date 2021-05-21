@@ -4,16 +4,16 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "c68cf2ce3bd59d406d031eb3c92d8015",
-"index.html": "765819b5aec1e9a3ab3bff3b76df3c8e",
-"/": "765819b5aec1e9a3ab3bff3b76df3c8e",
-"main.dart.js": "d9a05d93111f29547fc8219c539cc0b2",
+"index.html": "bdeb607d16b452d944b35d472a089c75",
+"/": "bdeb607d16b452d944b35d472a089c75",
+"main.dart.js": "291af73d809b12afe6ce69850a5a2acf",
 "favicon.png": "98a8a987604f462755643b8412c7e92e",
 "icons/Icon-192.png": "af9033555c6feb8da9491d65ab5bf48f",
 "icons/Icon-128.png": "204204d5ae02c85b295d363f3bbe4294",
 "icons/Icon-512.png": "8287340b14492d36d02e84e30ad98729",
 "manifest.json": "e25af3ce73552c0a39af726bbcc12d73",
 "assets/AssetManifest.json": "8edda4780b40098ab225169f66855211",
-"assets/NOTICES": "154421393a229357e003928030141238",
+"assets/NOTICES": "77619e486a829a7f2e5cd0a18c3959c4",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dffd9504fcb1894620fa41c700172994",
@@ -28,7 +28,7 @@ const RESOURCES = {
 "assets/packages/flutter_signin_button/assets/logos/3.0x/google_light.png": "fe46d37e7d6a16ecd15d5908a795b4ee",
 "assets/packages/flutter_signin_button/assets/logos/3.0x/facebook_new.png": "12531aa3541312b7e5ddd41223fc60cb",
 "assets/packages/flutter_signin_button/assets/logos/facebook_new.png": "e1dff5c319a9d7898aee817f624336e3",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac"
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -46,7 +46,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });

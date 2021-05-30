@@ -45227,7 +45227,7 @@ M.tD.prototype={
 lz:function(a,b){return this.atY(a,b)},
 atY:function(a,b){var s=0,r=P.x(t.J0),q,p=this,o,n,m,l,k
 var $async$lz=P.q(function(c,d){if(c===1)return P.u(d,r)
-while(true)switch(s){case 0:n=P.dQ("http","localhost:8888","api/v1/login",null)
+while(true)switch(s){case 0:n=P.dQ("https","ecomey.tensorloop.com","api/v1/login",null)
 m=t.N
 l=P.a6(["Content-Type","application/json; charset=UTF-8"],m,m)
 s=3
@@ -45264,7 +45264,7 @@ jn:function(){var s=0,r=P.x(t.F6),q,p,o,n,m,l
 var $async$jn=P.q(function(a,b){if(a===1)return P.u(b,r)
 while(true)switch(s){case 0:m=t.N
 s=3
-return P.r(G.tj(P.dQ("http","localhost:8888","api/v1/shop/1/categories",null),P.a6(["Content-Type","application/json; charset=UTF-8"],m,m)),$async$jn)
+return P.r(G.tj(P.dQ("https","ecomey.tensorloop.com","api/v1/shop/1/categories",null),P.a6(["Content-Type","application/json; charset=UTF-8"],m,m)),$async$jn)
 case 3:l=b
 m=l.b
 p=t.w9
@@ -45284,11 +45284,11 @@ s=3
 return P.r(l.eO(),$async$jc)
 case 3:k=c
 j=P
-i="localhost:8888"
+i="ecomey.tensorloop.com"
 h="api/v1/shop/"
 s=4
 return P.r(l.kO(),$async$jc)
-case 4:l=j.dQ("http",i,h+c.a+"/category/create",null)
+case 4:l=j.dQ("https",i,h+c.a+"/category/create",null)
 o=t.N
 n=P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+k],o,o)
 s=5
@@ -45308,11 +45308,11 @@ s=3
 return P.r(l.eO(),$async$jE)
 case 3:k=d
 j=P
-i="localhost:8888"
+i="ecomey.tensorloop.com"
 h="api/v1/shop/"
 s=4
 return P.r(l.kO(),$async$jE)
-case 4:l=j.dQ("http",i,h+d.a+"/category/"+b+"/update",null)
+case 4:l=j.dQ("https",i,h+d.a+"/category/"+b+"/update",null)
 o=t.N
 n=P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+k],o,o)
 s=5
@@ -45334,12 +45334,12 @@ case 3:n=c
 m=t.N
 k=G
 j=P
-i="localhost:8888"
+i="ecomey.tensorloop.com"
 h="api/v1/shop/"
 s=5
 return P.r(o.kO(),$async$ji)
 case 5:s=4
-return P.r(k.aQf(j.dQ("http",i,h+c.a+"/category/"+a,null),P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+n],m,m)),$async$ji)
+return P.r(k.aQf(j.dQ("https",i,h+c.a+"/category/"+a,null),P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+n],m,m)),$async$ji)
 case 4:l=c
 q=U.d3(C.w.cU(0,B.d5(J.a3(U.d4(l.e).c.a,"charset")).bz(0,l.x),null),new A.a3K(),t.J)
 s=1
@@ -45377,7 +45377,7 @@ return P.r(p.a.eO(),$async$vt)
 case 3:l=c
 k=t.N
 s=4
-return P.r(G.tj(P.dQ("http","localhost:8888","api/v1/shop/"+a+"/customers",null),P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+l],k,k)),$async$vt)
+return P.r(G.tj(P.dQ("https","ecomey.tensorloop.com","api/v1/shop/"+a+"/customers",null),P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+l],k,k)),$async$vt)
 case 4:j=c
 k=j.b
 o=t._l
@@ -45399,7 +45399,7 @@ m=t.N
 k=self.URL||self.webkitURL
 j=W
 s=3
-return P.r(G.tj(P.dQ("http","localhost:8888","api/v1/shop/"+a+"/customers/export",null),P.a6(["Content-Type","text/csv;charset=UTF-8","Authorization","Bearer "+n],m,m)),$async$vq)
+return P.r(G.tj(P.dQ("https","ecomey.tensorloop.com","api/v1/shop/"+a+"/customers/export",null),P.a6(["Content-Type","text/csv;charset=UTF-8","Authorization","Bearer "+n],m,m)),$async$vq)
 case 3:l=k.createObjectURL(j.aE_([c.x]))
 m=document
 p=m.createElement("a")
@@ -45438,7 +45438,7 @@ if(b!=null){o=t.N
 n=P.a6(["page",C.b.j(b)],o,o)}else n=null
 o=t.N
 s=4
-return P.r(G.tj(P.dQ("http","localhost:8888",h,n),P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+i],o,o)),$async$vu)
+return P.r(G.tj(P.dQ("https","ecomey.tensorloop.com",h,n),P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+i],o,o)),$async$vu)
 case 4:m=d
 o=m.b
 l=t.vL
@@ -45461,7 +45461,7 @@ l=P.a6(["time_zone_offset",C.b.j(C.b.aI(new P.dj(Date.now(),!1).gaww().a,1e6))],
 j=self.URL||self.webkitURL
 i=W
 s=3
-return P.r(G.tj(P.dQ("http","localhost:8888","api/v1/shop/"+a+"/orders/export",l),P.a6(["Content-Type","text/csv;charset=UTF-8","Authorization","Bearer "+n],m,m)),$async$vr)
+return P.r(G.tj(P.dQ("https","ecomey.tensorloop.com","api/v1/shop/"+a+"/orders/export",l),P.a6(["Content-Type","text/csv;charset=UTF-8","Authorization","Bearer "+n],m,m)),$async$vr)
 case 3:k=j.createObjectURL(i.aE_([c.x]))
 m=document
 p=m.createElement("a")
@@ -45483,7 +45483,7 @@ var $async$wN=P.q(function(d,e){if(d===1)return P.u(e,r)
 while(true)switch(s){case 0:s=3
 return P.r(p.a.eO(),$async$wN)
 case 3:l=e
-k=P.dQ("http","localhost:8888","/api/v1/shop/"+c+"/order/status/update",null)
+k=P.dQ("https","ecomey.tensorloop.com","/api/v1/shop/"+c+"/order/status/update",null)
 j=t.N
 j=P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+l],j,j)
 s=4
@@ -45535,7 +45535,7 @@ kj:function(){var s=0,r=P.x(t.W_),q,p,o,n,m,l
 var $async$kj=P.q(function(a,b){if(a===1)return P.u(b,r)
 while(true)switch(s){case 0:m=t.N
 s=3
-return P.r(G.tj(P.dQ("http","localhost:8888","api/v1/shop/1/products",null),P.a6(["Content-Type","application/json; charset=UTF-8"],m,m)),$async$kj)
+return P.r(G.tj(P.dQ("https","ecomey.tensorloop.com","api/v1/shop/1/products",null),P.a6(["Content-Type","application/json; charset=UTF-8"],m,m)),$async$kj)
 case 3:l=b
 m=l.b
 p=t.F5
@@ -45556,7 +45556,7 @@ s=1
 break}s=3
 return P.r(p.a.eO(),$async$v4)
 case 3:o=e
-n=D.aFA("POST",P.dQ("http","localhost:8888","/api/v1/product/"+c+"/upload",null))
+n=D.aFA("POST",P.dQ("https","ecomey.tensorloop.com","/api/v1/product/"+c+"/upload",null))
 m=t.N
 l=P.a6(["Authorization","Bearer "+o,"Content-type","multipart/form-data"],m,m)
 n.z.push(K.aFz("image",k,R.uT("image",X.kS(b,$.Jn().a).GX(1)[1],null),b))
@@ -45618,7 +45618,7 @@ return P.r(p.Il(i),$async$p_)
 case 5:l=e
 if(l==null){q=null
 s=1
-break}k=D.aFA("POST",P.dQ("http","localhost:8888","/api/v1/shop/"+n.a+"/product/"+c+"/image/upload",null))
+break}k=D.aFA("POST",P.dQ("https","ecomey.tensorloop.com","/api/v1/shop/"+n.a+"/product/"+c+"/image/upload",null))
 o=t.N
 j=P.a6(["Authorization","Bearer "+m,"Content-type","multipart/form-data"],o,o)
 o=b==null?"":b
@@ -45637,7 +45637,7 @@ var $async$v2=P.q(function(d,e){if(d===1)return P.u(e,r)
 while(true)switch(s){case 0:s=3
 return P.r(p.a.eO(),$async$v2)
 case 3:n=e
-m=P.dQ("http","localhost:8888","/api/v1/shop/"+c+"/category/"+b+"/product/create",null)
+m=P.dQ("https","ecomey.tensorloop.com","/api/v1/shop/"+c+"/category/"+b+"/product/create",null)
 l=t.N
 l=P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+n],l,l)
 s=4
@@ -45657,11 +45657,11 @@ s=3
 return P.r(l.eO(),$async$qF)
 case 3:k=c
 j=P
-i="localhost:8888"
+i="ecomey.tensorloop.com"
 h="/api/v1/shop/"
 s=4
 return P.r(l.kO(),$async$qF)
-case 4:l=j.dQ("http",i,h+c.a+"/products/create",null)
+case 4:l=j.dQ("https",i,h+c.a+"/products/create",null)
 o=t.N
 n=P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+k],o,o)
 s=5
@@ -45774,7 +45774,7 @@ arN:function(a){var s=0,r=P.x(t.Cg),q,p,o,n,m,l
 var $async$B3=P.q(function(b,c){if(b===1)return P.u(c,r)
 while(true)switch(s){case 0:m=t.N
 s=3
-return P.r(G.tj(P.dQ("http","localhost:8888","api/v1/shop/"+a+"/details",null),P.a6(["Content-Type","application/json; charset=UTF-8"],m,m)),$async$B3)
+return P.r(G.tj(P.dQ("https","ecomey.tensorloop.com","api/v1/shop/"+a+"/details",null),P.a6(["Content-Type","application/json; charset=UTF-8"],m,m)),$async$B3)
 case 3:l=c
 m=l.b
 p=t.H4
@@ -45793,7 +45793,7 @@ return P.r(p.a.eO(),$async$jo)
 case 3:l=b
 k=t.N
 s=4
-return P.r(G.tj(P.dQ("http","localhost:8888","api/v1/shops",null),P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+l],k,k)),$async$jo)
+return P.r(G.tj(P.dQ("https","ecomey.tensorloop.com","api/v1/shops",null),P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+l],k,k)),$async$jo)
 case 4:j=b
 k=j.b
 o=t._x
@@ -45813,11 +45813,11 @@ s=3
 return P.r(l.eO(),$async$jF)
 case 3:k=e
 j=P
-i="localhost:8888"
+i="ecomey.tensorloop.com"
 h="api/v1/shop/"
 s=4
 return P.r(l.kO(),$async$jF)
-case 4:l=j.dQ("http",i,h+e.a+"/update",null)
+case 4:l=j.dQ("https",i,h+e.a+"/update",null)
 o=t.N
 n=P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+k],o,o)
 s=5
@@ -45838,7 +45838,7 @@ s=1
 break}s=3
 return P.r(p.a.eO(),$async$wS)
 case 3:o=e
-n=D.aFA("POST",P.dQ("http","localhost:8888","/api/v1/shop/"+c+"/image/upload",null))
+n=D.aFA("POST",P.dQ("https","ecomey.tensorloop.com","/api/v1/shop/"+c+"/image/upload",null))
 m=t.N
 l=P.a6(["Authorization","Bearer "+o,"Content-type","multipart/form-data"],m,m)
 m=b==null?"":b
@@ -46204,7 +46204,7 @@ return P.r($.ys().x9(),$async$os)
 case 3:k=c
 if(k==null){q=new U.ci(!1,"Token not provided.",null,t.wZ)
 s=1
-break}p=P.dQ("http","localhost:8888","api/customer/v1/registration",null)
+break}p=P.dQ("https","ecomey.tensorloop.com","api/customer/v1/registration",null)
 o=t.N
 o=P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+k],o,o)
 s=4
@@ -46228,7 +46228,7 @@ return P.r($.ys().x9(),$async$v1)
 case 3:k=c
 if(k==null){q=new U.ci(!1,"Token not provided.",null,t.OG)
 s=1
-break}p=P.dQ("http","localhost:8888","api/customer/v1/device",null)
+break}p=P.dQ("https","ecomey.tensorloop.com","api/customer/v1/device",null)
 o=t.N
 o=P.a6(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+k],o,o)
 s=4
@@ -46807,7 +46807,7 @@ X.tM.prototype={
 AA:function(a){return this.apV(a)},
 apV:function(a){var s=0,r=P.x(t.wr),q,p,o,n
 var $async$AA=P.q(function(b,c){if(b===1)return P.u(c,r)
-while(true)switch(s){case 0:o=P.dQ("http","localhost:8888","api/v1/shop/1/order/create",null)
+while(true)switch(s){case 0:o=P.dQ("https","ecomey.tensorloop.com","api/v1/shop/1/order/create",null)
 n=t.N
 n=P.a6(["Content-Type","application/json; charset=UTF-8"],n,n)
 s=3
@@ -47015,7 +47015,7 @@ if(r==null){r=this.a.cx
 s=H.ab(r).i("al<1,iU>")
 s=this.x=P.ay(new H.al(r,new M.a3z(),s),!0,s.i("aV.E"))
 r=s}return r},
-kp:function(a){return"http://localhost:8888"+("/api/v1/product/"+a+"/image/download")},
+kp:function(a){return"https://ecomey.tensorloop.com"+("/api/v1/product/"+a+"/image/download")},
 gva:function(){var s=this.cx
 if(s==null){s=this.a
 s=this.cx=s.cx[s.Q]}return s},
@@ -47611,7 +47611,7 @@ case 1:return P.v(q,r)}})
 return P.w($async$qR,r)},
 kp:function(a){var s=a.r
 if(s==null)return""
-return"http://localhost:8888"+("/api/v1/product/image/"+s)}}
+return"https://ecomey.tensorloop.com"+("/api/v1/product/image/"+s)}}
 S.any.prototype={
 $1:function(a){return a.d===this.a},
 $S:100}
@@ -47753,7 +47753,7 @@ return K.L(s).b},
 $S:2}
 Y.aoB.prototype={
 $0:function(){var s,r=W.aDW()
-r.href=P.dQ("http","localhost:8888","/public/sample_products.csv",null).j(0)
+r.href=P.dQ("https","ecomey.tensorloop.com","/public/sample_products.csv",null).j(0)
 r.download="Sample Products Template"
 s=r.style
 s.display="none"
@@ -48244,7 +48244,7 @@ p.P()
 case 1:return P.v(q,r)}})
 return P.w($async$v3,r)},
 kp:function(a){if(a==null)return""
-return"http://localhost:8888"+("/api/v1/product/"+H.e(a)+"/image/download")}}
+return"https://ecomey.tensorloop.com"+("/api/v1/product/"+H.e(a)+"/image/download")}}
 F.a1G.prototype={
 $1:function(a){var s=a.b,r=a.c,q=P.f0(a.d),p=a.e,o=p==null?null:p.length===0
 if(o!==!1)p=null
@@ -49222,7 +49222,7 @@ return P.v(null,r)}})
 return P.w($async$kj,r)},
 kp:function(a){var s=a.r
 if(s==null)return""
-return"http://localhost:8888"+("/api/v1/product/image/"+s)}}
+return"https://ecomey.tensorloop.com"+("/api/v1/product/image/"+s)}}
 B.ag6.prototype={
 $2:function(a,b){return C.d.bs(a.b.toLowerCase(),b.b.toLowerCase())},
 $C:"$2",
@@ -49405,7 +49405,7 @@ a0n:function(){var s,r=this.c
 if(r==null)s=null
 else{r=r.c
 s=r==null?null:r.c}if(s==null)return""
-return"http://localhost:8888/api/v1/shop/"+C.b.j(1)+"/image/download"},
+return"https://ecomey.tensorloop.com/api/v1/shop/"+C.b.j(1)+"/image/download"},
 Az:function(a,b){return this.apR(a,b)},
 apR:function(a,b){var s=0,r=P.x(t.z),q,p=this
 var $async$Az=P.q(function(c,d){if(c===1)return P.u(d,r)
